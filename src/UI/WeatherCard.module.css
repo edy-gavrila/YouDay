@@ -1,0 +1,132 @@
+.card {
+  height: auto;
+  max-width: 576px;
+  min-width: 375px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  backdrop-filter: blur(2px);
+  overflow: hidden;
+}
+
+.fair-weather-day-background {
+  background-image: linear-gradient(
+      115deg,
+      rgba(120, 140, 252, 0.267),
+      rgba(45, 48, 78, 0.507)
+    ),
+    url("../assets/img/fair-weather-day-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fair-weather-night-background {
+  background-image: linear-gradient(
+      115deg,
+      rgba(120, 140, 252, 0.267),
+      rgba(45, 48, 78, 0.507)
+    ),
+    url("../assets/img/fair-weather-night-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-content {
+  padding-top: 1rem;
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+}
+
+.card-title {
+  color: rgba(255, 255, 255, 0.801);
+  margin-left: 1rem;
+  font-weight: 100;
+}
+
+.weather-info {
+  color: white;
+  padding: 2rem;
+  padding-right: 1rem;
+  margin-top: 1rem;
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.weather-message-title {
+  display: inline-block;
+  margin-left: 2rem;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.weather-message {
+  margin-top: 1rem;
+  font-weight: 200;
+  letter-spacing: 1px;
+  width: 80%;
+}
+
+.temperature-data-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.temperature {
+  font-size: 4rem;
+  font-weight: 300;
+  height: auto;
+}
+
+.degree {
+  padding-top: 1rem;
+  font-size: 1rem !important;
+}
+
+.temperature-feel {
+  bottom: 0;
+  left: 13px;
+  position: absolute;
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+
+.hourly-cards-container {
+  height: 100px;
+  display: grid;
+  box-shadow: -1px 0px 10px rgba(0, 0, 0, 0.6);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+
+.forecast-card {
+  color: rgba(255, 255, 255, 0.74);
+  font-weight: 100;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.forecast-card-day {
+  background-color: rgba(81, 115, 165, 0.753);
+}
+.forecast-card-dusk {
+  background-color: rgba(58, 83, 121, 0.753);
+}
+.forecast-card-night {
+  background-color: rgba(32, 47, 68, 0.753);
+}
+
+.forecast-card-selected {
+  background-color: rgba(118, 161, 53, 0.61);
+}

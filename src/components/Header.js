@@ -5,7 +5,7 @@ import classes from "./Header.module.css";
 const Header = (props) => {
   return (
     <header className={classes["header-container"]}>
-      <h1 className={classes["app-title"]}>Weather</h1>
+      <h1 className={classes["app-title"]}>YouDay</h1>
 
       <SearchForm onSubmit={props.onSearchWeather} />
     </header>

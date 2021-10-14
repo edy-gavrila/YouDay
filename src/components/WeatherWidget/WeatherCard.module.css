@@ -1,0 +1,233 @@
+.card {
+  max-width: 576px;
+  min-width: 375px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  backdrop-filter: blur(2px);
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.default-background {
+  background-image: linear-gradient(
+    115deg,
+    rgba(120, 140, 252, 0.267),
+    rgba(45, 48, 78, 0.507)
+  );
+}
+
+.Clear-day-background {
+  background-image: linear-gradient(
+      115deg,
+      rgba(120, 140, 252, 0.267),
+      rgba(45, 48, 78, 0.507)
+    ),
+    url("./img/fair-weather-day-background.jpg") !important;
+}
+.Clear-night-background {
+  background-image: linear-gradient(
+      115deg,
+      rgba(120, 140, 252, 0.267),
+      rgba(45, 48, 78, 0.507)
+    ),
+    url("./img/fair-weather-night-background.jpg") !important;
+}
+
+.Clouds-day-background {
+  background-image: linear-gradient(
+      115deg,
+      rgba(120, 140, 252, 0.267),
+      rgba(45, 48, 78, 0.507)
+    ),
+    url("./img/clouds-weather-day-background.jpg") !important;
+}
+.Clouds-night-background {
+  background-image: linear-gradient(
+      115deg,
+      rgba(120, 140, 252, 0.267),
+      rgba(45, 48, 78, 0.507)
+    ),
+    url("./img/clouds-weather-night-background.jpg") !important;
+}
+.Rain-day-background {
+  background-image: linear-gradient(
+      115deg,
+      rgba(120, 140, 252, 0.267),
+      rgba(45, 48, 78, 0.507)
+    ),
+    url("./img/rain-weather-day-background.jpg");
+}
+.Rain-night-background {
+  background-image: linear-gradient(
+      115deg,
+      rgba(120, 140, 252, 0.267),
+      rgba(45, 48, 78, 0.507)
+    ),
+    url("./img/rain-weather-night-background.jpg");
+}
+.Thunderstorm-day-background {
+  background-image: linear-gradient(
+      115deg,
+      rgba(120, 140, 252, 0.267),
+      rgba(45, 48, 78, 0.507)
+    ),
+    url("./img/thunderstorm-weather-day-background.jpg");
+}
+.Thunderstorm-night-background {
+  background-image: linear-gradient(
+      115deg,
+      rgba(120, 140, 252, 0.267),
+      rgba(45, 48, 78, 0.507)
+    ),
+    url("./img/thunderstorm-weather-night-background.jpg");
+}
+.Drizzle-day-background {
+  background-image: linear-gradient(
+      115deg,
+      rgba(120, 140, 252, 0.267),
+      rgba(45, 48, 78, 0.507)
+    ),
+    url("./img/drizzle-weather-day-background.jpg");
+}
+.Drizzle-night-background {
+  background-image: linear-gradient(
+      115deg,
+      rgba(120, 140, 252, 0.267),
+      rgba(45, 48, 78, 0.507)
+    ),
+    url("./img/drizzle-weather-night-background.jpg");
+}
+.Haze-day-background {
+  background-image: linear-gradient(
+      115deg,
+      rgba(120, 140, 252, 0.267),
+      rgba(45, 48, 78, 0.507)
+    ),
+    url("./img/haze-weather-day-background.jpg");
+}
+.Haze-night-background {
+  background-image: linear-gradient(
+      115deg,
+      rgba(120, 140, 252, 0.267),
+      rgba(45, 48, 78, 0.507)
+    ),
+    url("./img/haze-weather-night-background.jpg");
+}
+
+.card-content {
+  padding-top: 1rem;
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+}
+
+.card-title {
+  color: rgba(255, 255, 255, 0.801);
+  margin-left: 1rem;
+  font-weight: 100;
+}
+
+.weather-info {
+  color: white;
+  padding: 1rem 2rem;
+  padding-right: 1rem;
+  margin-top: 2rem;
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.weather-info-group {
+  padding-top: 1rem;
+}
+
+.weather-message-title {
+  display: inline-block;
+  margin-left: 2rem;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.humidity {
+  display: block;
+  margin-left: 3.2rem;
+}
+
+.weather-message {
+  margin-top: 1rem;
+  font-weight: 200;
+  letter-spacing: 1px;
+  width: 80%;
+}
+
+.temperature-data-container {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 6rem;
+}
+
+.degrees-container {
+  display: flex;
+}
+
+.temperature {
+  margin: 0;
+  padding: 0;
+  font-size: 4rem;
+  font-weight: 300;
+  height: auto;
+}
+
+.degree {
+  margin-top: 1.2rem;
+}
+
+.temperature-details {
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+
+.hourly-cards-container {
+  height: 100px;
+  display: grid;
+  box-shadow: -1px 0px 10px rgba(0, 0, 0, 0.6);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+
+.forecast-card {
+  color: rgba(255, 255, 255, 0.74);
+  font-weight: 100;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.forecast-card-0 {
+  background-color: rgba(102, 132, 173, 0.527);
+}
+.forecast-card-1 {
+  background-color: rgba(81, 115, 165, 0.753);
+}
+.forecast-card-2 {
+  background-color: rgba(58, 83, 121, 0.753);
+}
+.forecast-card-3 {
+  background-color: rgba(32, 47, 68, 0.753);
+}
+
+.forecast-card-selected {
+  background-color: rgba(118, 161, 53, 0.61) !important;
+}

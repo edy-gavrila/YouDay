@@ -1,0 +1,18 @@
+export const weatherDescriptons = {
+  Clear: "Clear sky. Good weather for a walk!",
+  Clouds: "Cloudy today... Don't let that stand in your way!",
+  Rain: "Don't forget your umbrella!",
+  Snow: "It is snowing. Be careful out here!",
+  Extreme: "Danger! Please don't go outside!",
+  Drizzle: "If your going outside, bring your coat and your sunny smile!",
+  Thunderstorm: "Oh dear! Better get snuggled in!",
+  Haze: "Everyting's a bit hazy, these days!",
+  Mist: "Increase your attention, especially on roads!",
+  Smoke: "Keep an eye for dangerous conditions!",
+  Dust: "It gets everywhere!",
+  Sand: "Dust's mean big brother!",
+  Ash: "Nature unleashed. Better stay out of the way",
+  Fog: "Be careful if you're driving or crosing the road!",
+  Tornado: "Please seek shelter immediately!",
+  Squall: "Just stay inside for now!,",
+};

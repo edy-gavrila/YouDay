@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/YouDay/static/css/main.0ad9b61f.chunk.css",
+    "main.js": "/YouDay/static/js/main.b57b4167.chunk.js",
+    "main.js.map": "/YouDay/static/js/main.b57b4167.chunk.js.map",
+    "runtime-main.js": "/YouDay/static/js/runtime-main.794bdbc8.js",
+    "runtime-main.js.map": "/YouDay/static/js/runtime-main.794bdbc8.js.map",
+    "static/css/2.1f867690.chunk.css": "/YouDay/static/css/2.1f867690.chunk.css",
+    "static/js/2.1af90757.chunk.js": "/YouDay/static/js/2.1af90757.chunk.js",
+    "static/js/2.1af90757.chunk.js.map": "/YouDay/static/js/2.1af90757.chunk.js.map",
+    "index.html": "/YouDay/index.html",
+    "static/css/2.1f867690.chunk.css.map": "/YouDay/static/css/2.1f867690.chunk.css.map",
+    "static/css/main.0ad9b61f.chunk.css.map": "/YouDay/static/css/main.0ad9b61f.chunk.css.map",
+    "static/js/2.1af90757.chunk.js.LICENSE.txt": "/YouDay/static/js/2.1af90757.chunk.js.LICENSE.txt",
+    "static/media/WeatherCard.module.css": "/YouDay/static/media/thunderstorm-weather-night-background.903a6373.jpg",
+    "static/media/300.css": "/YouDay/static/media/roboto-vietnamese-300-normal.af9afdc1.woff2",
+    "static/media/400.css": "/YouDay/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2",
+    "static/media/500.css": "/YouDay/static/media/roboto-vietnamese-500-normal.b8e494da.woff2",
+    "static/media/700.css": "/YouDay/static/media/roboto-vietnamese-700-normal.3096f18a.woff2",
+    "static/media/weather-icons.css": "/YouDay/static/media/weathericons-regular-webfont.e218aee6.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.794bdbc8.js",
+    "static/css/2.1f867690.chunk.css",
+    "static/js/2.1af90757.chunk.js",
+    "static/css/main.0ad9b61f.chunk.css",
+    "static/js/main.b57b4167.chunk.js"
+  ]
+}
